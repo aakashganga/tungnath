@@ -1,0 +1,37 @@
+.photos img {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    transition: all 0.3s ease;
+}
+.photos img{
+    height: 250px;
+    width: 250px;
+}
+.photos img:hover {
+    -webkit-transform: scale(1.75);
+    -moz-transform: scale(1.75);
+    -o-transform: scale(1.75);
+    transform: scale(1.75);
+    z-index: 10;
+}
+.photos img {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.photos img {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    padding: 10px 10px 30px 10px;
+    background: rgb(255, 255, 255);
+    border: solid 1px black;
+}
+.boxforgallery{
+    align-self: center;
+    align-content: center;
+    align-items: center;
+}
