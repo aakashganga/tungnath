@@ -103,7 +103,7 @@ section .title::after{
 /* navbar styling */
 .navbar{
     background-color: #3f51b5;
-    position: fixed;
+/*     position: fixed; */
     width: 100%;
     z-index: 999;
     padding: 10px 0;
