@@ -862,3 +862,24 @@ color:#111;
 .red-color {
     color:red;
 }
+
+
+.viewmore a{
+    display: inline-block;
+    /* background: crimson; */
+    background: #2196f3;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    /* border: 2px solid crimson; */
+    border: 2px solid #2196f3;
+    transition: all 0.3s ease;
+}
+.viewmore a:hover{
+    /* color: crimson; */
+    color: #2196f3;
+    background: none;
+}
